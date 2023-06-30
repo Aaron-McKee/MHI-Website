@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Page</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/cruz.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/worship.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/guitar.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/bless.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/knife.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/inglesia.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/baptize.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/sing.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/holywater.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/wife.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/youth.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/thine.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/party.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/newstage.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/pastor.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/BlueBible.jpg" alt=""></div>
+           
+        </div>
+        <!--Add Pagination-->
+        <div class="swiper-pagination"></div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    let swiper = new Swiper('.swiper-container',{
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        freeMode: true,
+    
+        coverflowEffect: {
+            rotate: 20,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true, 
+        
+        },
+       
+        loop: true,
+          autoplay: {
+            delay: 4200,
+            disableOnInteraction: false,
+            
+          },
+     }); 
+    
+</script>
+
+
+
+<script src="gallery.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000000;
+  
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 250px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: auto;
+    width: 384px;
+    height: 682px;
+    background: #000000;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006); 
+}
